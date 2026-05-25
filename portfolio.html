@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portofolio & Pengalaman Sistem - Harya</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700;800&family=Plus+Jakarta+Sans:wght@400;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <style>
+        * { box-sizing: border-box; margin: 0; padding: 0; }
+        body { 
+            background-color: #0b0f19; 
+            font-family: 'Plus Jakarta Sans', sans-serif; 
+            color: #cbd5e1;
+            padding: 40px 20px;
+            display: flex;
+            justify-content: center;
+            min-height: 100vh;
+        }
+
+        .portfolio-container {
+            width: 100%;
+            max-width: 750px;
+            background-color: #0f172a;
+            border-radius: 24px;
+            border: 1px solid #1e293b;
+            padding: 40px;
+            box-shadow: 0 30px 60px rgba(0,0,0,0.5);
+            display: flex;
+            flex-direction: column;
+            gap: 25px;
+        }
+
+        .btn-back {
+            display: inline-flex;
+            align-items: center;
+            gap: 8px;
+            color: #38bdf8;
+            text-decoration: none;
+            font-size: 14px;
+            font-weight: 600;
+            transition: color 0.2s;
+            margin-bottom: 5px;
+        }
+        .btn-back:hover { color: #0ea5e9; }
+
+        h1 {
+            font-family: 'Poppins', sans-serif;
+            font-size: 30px;
+            font-weight: 800;
+            color: #f8fafc;
+            line-height: 1.3;
+        }
+        h1 span {
+            background: linear-gradient(to right, #38bdf8, #0ea5e9);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+        }
+
+        .intro-text { color: #94a3b8; font-size: 15px; line-height: 1.6; }
+
+        .section-title {
+            font-family: 'Poppins', sans-serif;
+            font-size: 16px;
+            font-weight: 700;
+            color: #f8fafc;
+            display: flex;
+            align-items: center;
+            gap: 15px;
+            margin-top: 10px;
+        }
+        .section-title hr { flex-grow: 1; border: none; height: 1px; background-color: #334155; }
+
+        /* LIST DOKUMENTASI PROYEK */
+        .project-list { display: flex; flex-direction: column; gap: 16px; }
+        .project-card {
+            background: rgba(11, 15, 25, 0.6);
+            border: 1px solid #1e293b;
+            border-radius: 16px;
+            padding: 24px;
+            display: flex;
+            flex-direction: column;
+            gap: 10px;
+        }
+
+        .project-header {
+            display: flex;
+            justify-content: space-between;
+            align-items: flex-start;
+            flex-wrap: wrap;
+            gap: 10px;
+        }
+
+        .project-title {
+            font-family: 'Poppins', sans-serif;
+            font-size: 18px;
+            font-weight: 700;
+            color: #f1f5f9;
+        }
+
+        .project-badge {
+            background: rgba(14, 165, 233, 0.15);
+            color: #38bdf8;
+            font-size: 12px;
+            font-weight: 700;
+            padding: 4px 12px;
+            border-radius: 20px;
+            border: 1px solid rgba(14, 165, 233, 0.3);
+        }
+
+        .project-desc { color: #94a3b8; font-size: 13.5px; line-height: 1.6; }
+
+        .tech-tags { display: flex; gap: 8px; flex-wrap: wrap; margin-top: 5px; }
+        .tech-badge {
+            background: #1e293b;
+            color: #e2e8f0;
+            font-size: 11px;
+            font-weight: 600;
+            padding: 3px 10px;
+            border-radius: 6px;
+        }
+
+        /* BOTTOM FOOTER CALL TO ACTION */
+        .footer-cta {
+            background: linear-gradient(90deg, #1e293b 0%, #0f172a 100%);
+            border: 1px solid #334155;
+            border-radius: 16px;
+            padding: 25px;
+            text-align: center;
+            margin-top: 15px;
+        }
+        .footer-cta p { font-size: 14px; color: #e2e8f0; margin-bottom: 15px; }
+        
+        .btn-footer-wa {
+            display: inline-flex;
+            align-items: center;
+            gap: 10px;
+            background-color: #0ea5e9;
+            color: #ffffff;
+            padding: 10px 24px;
+            border-radius: 8px;
+            font-weight: 700;
+            font-size: 14px;
+            text-decoration: none;
+            transition: background-color 0.2s;
+        }
+        .btn-footer-wa:hover { background-color: #0284c7; }
+    </style>
+</head>
+<body>
+
+<div class="portfolio-container">
+    
+    <a href="index.html" class="btn-back">
+        <i class="fa-solid fa-arrow-left"></i> Kembali ke Brosur Utama
+    </a>
+
+    <h1>Pengalaman Pengembangan<br><span>Sistem & Otomasi Riil</span></h1>
+    
+    <p class="intro-text">
+        Berikut adalah beberapa sistem aplikasi dan infrastruktur digital terapan yang telah saya bangun, kembangkan, dan implementasikan secara nyata di lapangan untuk mengoptimalkan efisiensi kerja.
+    </p>
+
+    <div class="section-title">
+        <span>DOKUMENTASI SISTEM TERPASANG</span>
+        <hr>
+    </div>
+
+    <div class="project-list">
+        
+        <div class="project-card">
+            <div class="project-header">
+                <div class="project-title">Sistem Aplikasi & Digital TV Signage Informasi</div>
+                <span class="project-badge">Infrastruktur Riil</span>
+            </div>
+            <p class="project-desc">
+                Berhasil merancang dan mengonfigurasi sistem TV Digital Signage terintegrasi untuk kebutuhan media informasi center terpusat. Sistem mampu menyajikan visual data interaktif, jadwal otomatis, koordinasi informasi berkala, dan pembaruan multimedia secara real-time.
+            </p>
+            <div class="tech-tags">
+                <span class="tech-badge">Digital Signage</span>
+                <span class="tech-badge">Multimedia Display</span>
+                <span class="tech-badge">Sistem Informasi</span>
+            </div>
+        </div>
+
+        <div class="project-card">
+            <div class="project-header">
+                <div class="project-title">Sistem Rekapitulasi Iuran Kelompok Terstruktur</div>
+                <span class="project-badge">Manajemen Log</span>
+            </div>
+            <p class="project-desc">
+                Mendeploy sistem tracking iuran berkala (bulanan/kuartalan) menggunakan integrasi kartu fisik kontrol iuran warga. Mempermudah petugas dalam melakukan verifikasi validitas pembayaran, rekap mutasi, dan mencegah selisih pelaporan kas data warga.
+            </p>
+            <div class="tech-tags">
+                <span class="tech-badge">Sistem Keuangan</span>
+                <span class="tech-badge">Kartu Kontrol</span>
+                <span class="tech-badge">Data Management</span>
+            </div>
+        </div>
+
+        <div class="project-card">
+            <div class="project-header">
+                <div class="project-title">Otomasi Rekapitulasi Kas & Running Balances</div>
+                <span class="project-badge">Spreadsheet Automation</span>
+            </div>
+            <p class="project-desc">
+                Mentransformasikan sistem pembukuan manual menjadi ekosistem database terotomasi berformula kompleks. Membantu proses audit tahunan organisasi berjalan instan, kalkulasi saldo berjalan otomatis, sinkronisasi data antar-sheet, serta meminimalisir kesalahan input (*human error*).
+            </p>
+            <div class="tech-tags">
+                <span class="tech-badge">Excel / Sheets Automation</span>
+                <span class="tech-badge">Advanced Formulas</span>
+                <span class="tech-badge">Financial Audit</span>
+            </div>
+        </div>
+
+    </div>
+
+    <div class="footer-cta">
+        <p>Tertarik menerapkan salah satu sistem otomasi di atas untuk bisnis atau organisasi Anda?</p>
+        <a href="https://wa.me/6289530104144?text=Halo%20Mas%20Harya,%20saya%20tertarik%20berdiskusi%20mengenai%20implementasi%20portofolio%20sistem%20Anda" class="btn-footer-wa" target="_blank">
+            <i class="fa-solid fa-comments"></i> Hubungi Harya via WhatsApp
+        </a>
+    </div>
+
+</div>
+
+</body>
+</html>
